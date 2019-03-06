@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("/public/images/background.jpg") no-repeat center center fixed;
+
+  background-size: cover;
+  /* font-family: sans-serif; */
+}
+.login-box {
+  font-family: "Roboto", sans-serif;
+  width: 320px;
+  height: auto;
+  background: rgba(0, 125, 195, 0.5);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  /* src: url("/images/avatar.png"); */
+}
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.table {
+  background: rgba(0, 125, 195, 0.5);
+  padding: 20px;
+}
+#data {
+  width: auto;
+}
+.deleteIcon {
+  width: 20px;
+  height: 20px;
+  transition: 0.5s;
+}
+.deleteIcon:hover {
+  width: 25px;
+  height: 25px;
+}
+.login-box p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.login-box input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #007dc3;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #002d62;
+  color: #d4e6f0;
+}
+.profile {
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  margin-left: 420px;
+  font-size: larger;
+  background: rgba(0, 125, 195, 0.5);
+  border-radius: 15px;
+  width: 600px;
+  padding-top: 20px;
+  padding-left: 20px;
+  height: auto;
+  padding-bottom: 20px;
+}
+.btnLeft {
+  position: relative;
+  left: 10px;
+}
+
+.display-flex {
+  display: flex;
+}

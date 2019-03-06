@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+
+.content {
+  height: 700px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #007dc3;
+  padding: 0 24px;
+}
+
+.header h1 {
+  padding-bottom: 0;
+}

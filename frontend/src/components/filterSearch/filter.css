@@ -1,0 +1,12 @@
+.filterBar {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 60px;
+}
+.margin {
+  margin-right: 10px;
+}
+h1 {
+  font-size: xx-large;
+}

@@ -1,0 +1,70 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+.firstWord {
+  font-family: "Roboto", sans-serif;
+  color: #007dc3;
+  font-size: -webkit-xxx-large;
+  margin-right: 2px;
+}
+.secondWord {
+  font-family: "Roboto", sans-serif;
+  color: #002d62;
+  font-size: -webkit-xxx-large;
+}
+.slide {
+  width: 100%;
+  height: 500px;
+}
+#carouselExampleIndicators {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-item img {
+  height: 500px;
+  border-bottom: 2px solid #007dc3;
+}
+.search {
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  background-color: rgba(245, 245, 245, 0.8);
+  height: 175px;
+  width: 45%;
+  border-radius: 13px;
+  padding: 20px 32px;
+}
+.searchbox {
+  max-height: 55px;
+}
+.flex {
+  display: flex;
+  padding: 60px 10px 60px 60px;
+  flex-wrap: wrap;
+}
+
+.search-content-title {
+  font-family: "Roboto", sans-serif;
+  color: #007dc3;
+  font-size: 36px;
+  font-weight: 700;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.65);
+  text-align: center;
+}

@@ -1,0 +1,29 @@
+.background {
+  width: 500px;
+  left: 400px;
+  position: relative;
+  margin-top: 20px;
+}
+.form-group {
+  width: 490px;
+}
+
+.msg {
+  background: rgba(0, 125, 195, 0.5);
+  left: 20%;
+  top: 35%;
+  position: fixed;
+  border-radius: 35px;
+}
+.msg-text {
+  height: 200px;
+  font-size: -webkit-xxx-large;
+  padding-top: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+  color: white;
+}
+.table {
+  font-family: "Roboto", sans-serif;
+  border-radius: 15px;
+}

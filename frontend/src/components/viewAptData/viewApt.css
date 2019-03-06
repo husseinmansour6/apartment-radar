@@ -1,0 +1,65 @@
+.first {
+  padding: 10px;
+  font-family: "Roboto Slab", serif;
+  font-size: larger;
+  padding-left: 50px;
+}
+.second {
+  font-family: "Roboto Slab", serif;
+  padding-top: 10px;
+  padding-left: 50px;
+  font-size: larger;
+  padding-left: 50px;
+}
+#img {
+  margin: 10px;
+  margin-left: 15%;
+}
+.button-style {
+  width: 100px;
+  background-color: #007dc3;
+  border-radius: 12px;
+  position: relative;
+  left: 130px;
+}
+#img img {
+  width: 83%;
+  height: 350px;
+}
+
+.flex-div {
+  background-color: rgba(0, 124, 195, 0.6);
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-radius: 40px;
+}
+.gallery {
+  display: -webkit-flex;
+  margin-left: 15%;
+}
+
+.img-div {
+  width: 300px;
+  height: 300px;
+}
+
+.gallery-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  padding: 10px;
+}
+.message-div {
+  position: relative;
+  font-family: "Roboto Slab", serif;
+  width: 500px;
+
+  padding-top: 10px;
+  padding-left: 42px;
+  border-radius: 40px;
+}
+.gmail {
+  color: #060606 !important;
+  background-color: white !important
+}
